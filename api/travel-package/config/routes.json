@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/travel-packages",
+      "handler": "travel-package.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/travel-packages/count",
+      "handler": "travel-package.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/travel-packages/:id",
+      "handler": "travel-package.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/travel-packages",
+      "handler": "travel-package.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/travel-packages/:id",
+      "handler": "travel-package.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/travel-packages/:id",
+      "handler": "travel-package.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "order",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "invoiceNumber": {
+      "type": "biginteger"
+    },
+    "totalPrice": {
+      "type": "decimal",
+      "required": true
+    },
+    "customerId": {
+      "model": "customer"
+    }
+  }
+}

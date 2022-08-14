@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_creator_info_creator_infos",
+  "info": {
+    "name": "creatorInfo",
+    "icon": "arrow-alt-circle-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

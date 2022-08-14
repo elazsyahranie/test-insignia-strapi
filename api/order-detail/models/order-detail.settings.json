@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "order_details",
+  "info": {
+    "name": "orderDetail"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "orderId": {
+      "model": "order"
+    },
+    "customerId": {
+      "model": "customer"
+    },
+    "price": {
+      "model": "order"
+    }
+  }
+}
